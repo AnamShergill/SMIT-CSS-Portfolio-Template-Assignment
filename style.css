@@ -1,0 +1,385 @@
+
+
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  
+}
+
+body {
+  font-family: 'Brush Script MT', cursive;
+  scroll-behavior: smooth;
+  
+}
+
+/* Container for both sidebar and content */
+.parentdiv {
+  height: 100vh;
+  max-width: 100vw;
+  background-color: rgb(245, 214, 245);
+}
+
+/*------------- Sidebar--------------- */
+.child1 {
+  height: 100vh;
+  width: 18%;
+  background-color: rgb(60, 2, 61);
+  position: fixed;
+  display: inline-block;
+  vertical-align: top;
+  text-align: center;
+  padding-top: 20px;
+
+  color: white;
+}
+
+/* -------------Profile Image-------------- */
+.dp {
+  height: 170px;
+  width: 170px;
+  border-radius: 50%;
+  border: 4px solid rgb(239, 26, 239);
+  margin: 180px auto 20px auto;
+  display: block;
+}
+
+/* ----------------Navigation Links ---------------------*/
+.child1 ul {
+  list-style: none;
+  padding: 0;
+  margin-top: 20px;
+}
+
+.child1 li {
+  margin: 10px 0;
+}
+
+.child1 ul a {
+  display: block;
+  font-size: 1.2em;
+  text-decoration: none;
+  font-weight: bold;
+  letter-spacing: 1px;
+  transition: color 0.3s;
+  color: #e241e8;
+}
+
+.child1 ul a:hover {
+  color: #fefafe;
+}
+
+/*---------------- Main Content---------------- */
+.child2 {
+  height: 100vh;
+  width: 80%;
+
+  display: inline-block;
+  vertical-align: top;
+  padding: 40px;
+  padding-left: 300px;
+
+  overflow: auto;
+}
+
+/* Name Section */
+.name {
+  padding-top: 190px;
+  padding-left: 20px;
+  letter-spacing: -1px;
+}
+
+.h1 {
+  font-size: 4.5em;
+  letter-spacing: -1px;
+  color: rgb(61, 58, 58);
+}
+
+.n-2 {
+  color: #630565;
+  letter-spacing: -1px;
+}
+
+.address {
+  font-size: 1.3em;
+  color: rgb(84, 83, 83);
+  font-weight: 500;
+}
+
+.mail {
+  color: #ee38f5;
+}
+
+.mail:hover {
+  color: #950cf0;
+}
+
+/*-------------- About Section-------------- */
+.about {
+  padding-top: 40px;
+  margin-left: 20px;
+
+  font-size: 1.5rem;
+  color: rgb(91, 87, 87);
+}
+
+.icon-div {
+  padding-top: 55px;
+  display: inline-block;
+  padding-left: 15px;
+}
+
+.icon {
+  padding: 10px;
+
+  margin: 15px;
+  color: #ece1ec;
+  background-color: rgb(60, 2, 61);
+  display: inline;
+  border-radius: 50%;
+  font-size: 2em;
+  text-align: center;
+}
+
+.icon:hover {
+  color: #fd88de;
+  background-color: rgb(56, 3, 77);
+}
+
+.hr {
+  border: none;
+  background-color: #444;
+  height: 2px;
+}
+
+/*--------------- Experience Section styling-------------------- */
+
+.section {
+  background-color: rgb(245, 214, 245);
+min-height: 100vh;
+  display: inline-block;
+  vertical-align: top;
+  padding: 40px;
+
+  padding-left: 320px;
+  font-size: 16px;
+  overflow: auto;
+}
+
+.section-title {
+  font-size: 3rem;
+  font-weight: bold;
+  color: #9002a5;
+  padding-top: 110px;
+  margin-bottom: 80px;
+  text-transform: uppercase;
+  letter-spacing: -1px;
+}
+
+/* ----------------Individual experience item------------------- */
+.experience-item {
+  margin-bottom: 40px;
+  position: relative;
+}
+
+.job-title {
+  font-size: 1.5rem;
+  font-weight: bold;
+  margin: 0;
+  color: rgb(107, 5, 108);
+  letter-spacing: -1px;
+}
+
+.company-name {
+  font-size: 1.1rem;
+  color: #e241e8;
+  margin: 5px 0;
+}
+
+.date {
+  position: absolute;
+  right: 0;
+  top: 0;
+  font-size: 1.2rem;
+  color: rgb(216, 36, 219);
+}
+
+.experience-item p {
+  margin-top: 10px;
+  color: #444;
+  font-size: 1.2rem;
+  line-height: 1.6;
+}
+/* ----------------Education section---------------*/
+
+.section-edu {
+  background-color: rgb(245, 214, 245);
+min-width: 100vw;
+min-height: 100vh;
+  display: inline-block;
+  vertical-align: top;
+  padding: 30px;
+
+  padding-left: 320px;
+  padding-bottom: 80px;
+  font-size: 12px;
+  letter-spacing: -1px;
+  overflow: auto;
+}
+.edu-title {
+  font-size: 3rem;
+  font-weight: bold;
+  color: #9002a5;
+  padding-top: 120px;
+  margin-bottom: 80px;
+  letter-spacing: -1px;
+  text-transform: uppercase;
+}
+
+.education-item {
+  margin-bottom: 40px;
+  position: relative;
+}
+
+.institute {
+  font-size: 1.5rem;
+  font-weight: bold;
+  margin: 0;
+  color: rgb(107, 5, 108);
+}
+
+.course {
+  font-size: 1.1rem;
+  color: #e241e8;
+  margin: 5px 0;
+}
+
+.education-item p {
+  margin-top: 10px;
+  color: #444;
+  font-size: 1.2rem;
+  line-height: 1.6;
+}
+
+/*--------------- section-skill-------------------*/
+
+.section-skills {
+  background-color: rgb(245, 214, 245);
+  width: 100%;
+  display: inline-block;
+  vertical-align: top;
+  padding: 30px;
+
+  padding-left: 320px;
+  padding-bottom: 220px;
+  font-size: 12px;
+  letter-spacing: -1px;
+  overflow: auto;
+}
+
+#skills {
+  font-size: 45px;
+  color: #9002a5;
+  padding-top: 200px;
+  letter-spacing: -1px;
+}
+
+.p {
+  margin-top: 10px;
+  color: #e241e8;
+  font-size: 1.3rem;
+  line-height: 1.6;
+}
+
+.icons {
+  padding-top: 30px;
+  font-size: 4em;
+  color: #444;
+  display: inline-block;
+  margin: 20px;
+}
+.h2 {
+  color: #e241e8;
+}
+
+.wf {
+  padding-top: 20px;
+}
+
+.wf p {
+  font-size: 1rem;
+  color:#444;
+}
+
+/*---------------Interest section----------------*/
+
+.section-interest {
+  background-color: rgb(245, 214, 245);
+  width: 100%;
+  height: 100%;
+  display: inline-block;
+  vertical-align: top;
+  padding: 30px;
+
+  padding-left: 320px;
+  padding-bottom: 230px;
+
+  overflow: auto;
+}
+
+.h1-inter {
+  padding-top: 200px;
+  font-size: 3.5em;
+  color: #9002a5;
+  letter-spacing: -1px;
+}
+
+.inter {
+  padding-top: 40px;
+  line-height: 1.2rem;
+  font-size: 1rem;
+  color: #444;
+}
+
+.inter2 {
+  line-height: 1.2rem;
+  font-size: 1rem;
+  color: #444;
+}
+
+/*--------------AWARDS section---------------*/
+
+.awards{
+  background-color: rgb(245, 214, 245);
+  min-width: 100vw;
+  display: inline-block;
+  vertical-align: top;
+  padding: 30px;
+
+  padding-left: 320px;
+  padding-bottom: 220px;
+
+  overflow: auto;
+
+}
+
+.h1-aw{
+  padding-top: 200px;
+  font-size: 3.5em;
+  color: #9002a5;
+  letter-spacing: -1px;
+
+}
+.award {
+  padding-top: 80px;
+  font-size: medium;
+ 
+  color: #444;
+  
+  
+}
+
+.award i{
+  margin:0.5em;
+  color: rgb(255, 187, 0);
+}
