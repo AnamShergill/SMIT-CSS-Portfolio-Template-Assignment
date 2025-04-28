@@ -1,16 +1,12 @@
-
-
 * {
   padding: 0;
   margin: 0;
   box-sizing: border-box;
-  
 }
 
 body {
-  font-family: 'Brush Script MT', cursive;
+  font-family: "Brush Script MT", cursive;
   scroll-behavior: smooth;
-  
 }
 
 /* Container for both sidebar and content */
@@ -156,7 +152,7 @@ body {
 
 .section {
   background-color: rgb(245, 214, 245);
-min-height: 100vh;
+  min-height: 100vh;
   display: inline-block;
   vertical-align: top;
   padding: 40px;
@@ -214,8 +210,8 @@ min-height: 100vh;
 
 .section-edu {
   background-color: rgb(245, 214, 245);
-min-width: 100vw;
-min-height: 100vh;
+  min-width: 100vw;
+  min-height: 100vh;
   display: inline-block;
   vertical-align: top;
   padding: 30px;
@@ -261,7 +257,7 @@ min-height: 100vh;
   line-height: 1.6;
 }
 
-/*--------------- section-skill-------------------*/
+/*--------------- Skill Section Styling-------------------*/
 
 .section-skills {
   background-color: rgb(245, 214, 245);
@@ -308,7 +304,7 @@ min-height: 100vh;
 
 .wf p {
   font-size: 1rem;
-  color:#444;
+  color: #444;
 }
 
 /*---------------Interest section----------------*/
@@ -349,7 +345,7 @@ min-height: 100vh;
 
 /*--------------AWARDS section---------------*/
 
-.awards{
+.awards {
   background-color: rgb(245, 214, 245);
   min-width: 100vw;
   display: inline-block;
@@ -360,26 +356,22 @@ min-height: 100vh;
   padding-bottom: 220px;
 
   overflow: auto;
-
 }
 
-.h1-aw{
+.h1-aw {
   padding-top: 200px;
   font-size: 3.5em;
   color: #9002a5;
   letter-spacing: -1px;
-
 }
 .award {
   padding-top: 80px;
   font-size: medium;
- 
+
   color: #444;
-  
-  
 }
 
-.award i{
-  margin:0.5em;
+.award i {
+  margin: 0.5em;
   color: rgb(255, 187, 0);
 }
